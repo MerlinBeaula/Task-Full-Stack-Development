@@ -1,0 +1,43 @@
+1)Write a blog on Difference between HTTP1.1 vs HTTP2
+
+HTTP - Hyper Text Transfer Protocol.It is the method that computers and servers use to request and send information.
+It is used in client-server communication.
+
+
+HTTP1.1
+->Web traffic- faster delivery of web pages and reduces web traffic if you compare it to Http 1.0
+->Performance optimization- sprinting, inlining, domain shrading, and concatenating
+->status code-It defines 24 status codes, error reporting is quicker and more efficient
+->Authentication Mechanism - Protocol Http 1.1 is much secured than Http 1.0 because it uses digest
+ authentication and NTLM authentication
+->Security- Digest authentication is an improvement over Http 1.0 which is now being used in Http 1.1.
+ Https uses SSL/TLS for secure encrypted communication
+
+HTTP2
+->utilizes multiplexing and server pushes to effectively reduce the page load time by a greater margin
+ along with being sensitive to network delays
+->Performance optimization - removes the need for unnecessary optimization hacks
+->Status code-It brings the fundamental semantics of HTTP like headers, and status code remains the same
+->Authentication Mechanism - Rather Http 2 is better equipped to deal with security threats because of the
+ new features it brings
+->Security - the security is encrypted since all almost all clients demand traffic to be encrypted. It has
+ minimum standards and minimum key size for encryption.
+
+From the above comparison, Http 2 is securer than Http 1.1
+
+2)Write a blog about objects and its internal representation in Javascript
+
+The object is an important data-type in and forms the building blocks for modern JavaScript. 
+The object is a Composite data type and is quite different as compared to the primitive data types 
+like Number, String, Boolean, null, undefined and symbol.
+
+Objects are very complex and it contains any combination of these primitive data-types as well as 
+reference data-types.
+The object is a reference data type. Variables that are assigned a reference value are given a reference
+ or a pointer to that value. That reference or pointer points to the location in memory where the object is stored.
+
+The objects in JavaScript may be defined as an unordered collection of related data in the form of key-value pairs. T
+he keys can be variable or functions and they are called properties and methods.respectively.
+
+The Object can be created by using brackets {}. The property is a “key: value” pair, where the key is a string 
+( called a “property name”), and value can be anything.
