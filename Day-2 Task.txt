@@ -1,0 +1,9 @@
+Write a blog on the Difference between document & window objects?
+#Window - It is a parent object.
+          It's not available on node environment, available only on browser JS.
+          It can be accessed by window.document or document.
+          We can access the HTML document used on the web page.
+#Document - It is a child of window.
+            It's available on node JS.
+            It can be accessed by document.
+            We can access any HTML document through this document object.
